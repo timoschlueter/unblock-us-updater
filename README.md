@@ -1,7 +1,7 @@
 Unblock-Us Updater
 =========
 
-This script automatically sends your current IP address to the Unblock-Us ([www.unblock-us.com](http://www.unblock-us.com) api. It can be used to update your IP adress via cron.  
+This script automatically sends your current IP address to the Unblock-Us ([www.unblock-us.com](http://www.unblock-us.com)) API. It can be used to update your IP adress via cron.  
 
 REQUIREMENTS
 -------
