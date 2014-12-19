@@ -10,10 +10,10 @@
 # Web:          www.timo.in
 # Twitter:      twitter.com/tmuuh
 #                  
-# Version:      0.2       
-# Date:         20-12-2013
+# Version:      0.3      
+# Date:         19-12-2014
 #                                                                         
-# Notes:        I am not affiliated directly or indirectly with Unblock-Us
+# Notes:        I am not affiliated with Unblock-Us
 #
                            
 # Variables (user specific)
@@ -36,18 +36,15 @@ elif [ -z $userpassword ]
 else                  
         # Call the api                                          
         response=$($wgetcmd --no-check-certificate -qO- $apiurl)
-                                 
-        # Check response from api   
-        if [ $response == "active" ]
-                then                                                   
+        
+	# Check response from api   
+        if [ "$response" = "active" ]; then                                                   
                         echo "IP address is active. You are good to go!"
                         exit 0              
-        elif [ $response == "bad_password" ]
-                then                                      
+        elif [ "$response" = "bad_password" ]; then                                      
                         echo "Wrong username or password."
                         exit 1           
-        elif [ $response == "not_found" ]
-                then                              
+        elif [ "$response" = "not_found" ]; then                              
                         echo "Username not found."
                         exit 1
         else                                                          

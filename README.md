@@ -17,7 +17,7 @@ Make the script executable and make sure you set your username and password
 UPDATES
 -------
 
-I might write one or two things about this on my blog [www.timo.in](http://www.timo.in (german) but the code itself will be maintained on GitHub only.
+I might write one or two things about this on my blog [www.timo.in](http://www.timo.in) but the code itself will be maintained on GitHub only.
 
 
 LICENSE
