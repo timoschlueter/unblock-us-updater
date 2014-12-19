@@ -5,9 +5,14 @@ This script automatically sends your current IP address to the Unblock-Us ([www.
 
 REQUIREMENTS
 -------
-
+### Shell version
 * wget
-* bash or sh
+* sh
+
+### Python version
+
+* sys
+* urllib2
 
 INSTALLATION
 --------
