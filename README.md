@@ -6,7 +6,8 @@ This script automatically sends your current IP address to the Unblock-Us ([www.
 REQUIREMENTS
 -------
 ### Shell version
-* wget
+
+* wget or curl
 * sh
 
 ### Python version
